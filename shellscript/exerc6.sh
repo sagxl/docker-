@@ -1,6 +1,7 @@
 #!/bin/bash
 
-for palavra in shell script usando estrutura repetição for terminal
+WORDS="shell script usando estrutura repetição for terminal"
+for WORD in $WORDS
 do
-    echo "$palavra"
+  echo $WORD
 done
