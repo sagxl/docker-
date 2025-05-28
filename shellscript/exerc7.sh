@@ -3,7 +3,7 @@
 FILES=$@
 
 for FILE in $FILES 
-do 
+do
 	if [ -f "$FILE"]
 	then
 		echo "%FILE e um arquivo comum"
